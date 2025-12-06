@@ -1,0 +1,154 @@
+@use '@angular/material' as mat;
+
+// ========================================
+// PALETA 1: AMARILLO PASTEL (Primary)
+// ========================================
+$primary-palette: (
+  50: #fffef7,
+  100: #fffce8,
+  200: #fff9d1,
+  300: #fff6ba,
+  400: #fff4a8,
+  500: #fff2a0,  // Amarillo pastel principal
+  600: #fff09a,
+  700: #ffee91,
+  800: #ffec89,
+  900: #ffe87a,
+  A100: #ffffff,
+  A200: #ffffff,
+  A400: #ffffff,
+  A700: #ffffff,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: rgba(black, 0.87),  // Texto negro sobre amarillo
+    600: rgba(black, 0.87),
+    700: rgba(black, 0.87),
+    800: rgba(black, 0.87),
+    900: rgba(black, 0.87),
+    A100: rgba(black, 0.87),
+    A200: rgba(black, 0.87),
+    A400: rgba(black, 0.87),
+    A700: rgba(black, 0.87),
+  )
+);
+
+// ========================================
+// PALETA 2: NARANJA PASTEL (Secondary)
+// ========================================
+$secondary-palette: (
+  50: #fff5f0,
+  100: #ffe6d9,
+  200: #ffd5c0,
+  300: #ffc4a7,
+  400: #ffb794,
+  500: #ffaa81,  // Naranja pastel principal
+  600: #ffa379,
+  700: #ff996e,
+  800: #ff9064,
+  900: #ff7f51,
+  A100: #ffffff,
+  A200: #ffffff,
+  A400: #ffffff,
+  A700: #ffffff,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: rgba(black, 0.87),
+    600: rgba(black, 0.87),
+    700: rgba(black, 0.87),
+    800: rgba(black, 0.87),
+    900: rgba(black, 0.87),
+    A100: rgba(black, 0.87),
+    A200: rgba(black, 0.87),
+    A400: rgba(black, 0.87),
+    A700: rgba(black, 0.87),
+  )
+);
+
+// ========================================
+// PALETA 3: CAFÉ CLARO PASTEL (Tertiary)
+// ========================================
+$tertiary-palette: (
+  50: #f5f0eb,
+  100: #e5d9cd,
+  200: #d4c0ab,
+  300: #c3a789,
+  400: #b6946f,
+  500: #a98155,  // Café claro pastel principal
+  600: #a2794e,
+  700: #996e44,
+  800: #90643a,
+  900: #7f5129,
+  A100: #ffcc99,
+  A200: #ffb366,
+  A400: #ff9933,
+  A700: #ff8800,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,  // Texto blanco sobre café
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(black, 0.87),
+    A200: rgba(black, 0.87),
+    A400: rgba(black, 0.87),
+    A700: rgba(black, 0.87),
+  )
+);
+
+// ========================================
+// ERROR: ROJO (Material por defecto)
+// ========================================
+// Usar directamente el rojo de Material
+$error-palette: (
+  50: #ffebee,
+  100: #ffcdd2,
+  200: #ef9a9a,
+  300: #e57373,
+  400: #ef5350,
+  500: #f44336,
+  600: #e53935,
+  700: #d32f2f,
+  800: #c62828,
+  900: #b71c1c,
+  A100: #ff8a80,
+  A200: #ff5252,
+  A400: #ff1744,
+  A700: #d50000,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(black, 0.87),
+    A200: white,
+    A400: white,
+    A700: white,
+  )
+);
+
+// ========================================
+// CREAR PALETAS DE MATERIAL
+// ========================================
+$my-primary: $primary-palette;
+$my-secondary: $secondary-palette;
+$my-tertiary: $tertiary-palette;
+$my-error: $error-palette;
